@@ -43,6 +43,7 @@
         <h2>
             퇴임까지 남은 시간
         </h2>
+		
 		<script type="text/javascript">
 		//######################################################################################
 		// Author: ricocheting.com
@@ -55,8 +56,8 @@
 		// format: dateFuture1 = new Date(year,month-1,day,hour,min,sec)
 		// example: dateFuture1 = new Date(2003,03,26,14,15,00) = April 26, 2003 - 2:15:00 pm
 
-		dateFuture1 = new Date(2018,2,24,0,0,0);
-		dateFuture2 = new Date(2017,12,20,0,0,0);
+		dateFuture1 = new Date(2018,1,24,1,0,0);
+		dateFuture2 = new Date(2017,11,20,1,0,0);
 
 		// TESTING: comment out the line below to print out the "dateFuture" for testing purposes
 		//document.write(dateFuture +"<br />");
@@ -72,7 +73,7 @@
 
 			// if time is already past
 			if(amount < 0){
-				document.getElementById(iid).innerHTML="이미 퇴임했네요!";
+				document.getElementById(iid).innerHTML="Now!";
 			}
 			// else date is still good
 			else{
